@@ -22,6 +22,16 @@ public class LineComputation {
 
         System.out.println("Welcome to line comparison computation program");
         LineComputation line1 = new LineComputation();
-        System.out.println("Length of line is :"+line1.insertCoOrdinates());
+        LineComputation line2 = new LineComputation();
+
+        if(line1.insertCoOrdinates() > line2.insertCoOrdinates())
+        {
+            System.out.println("line1 is greater ....");
+        }
+        else
+        {
+            System.out.println("line 2 is greater");
+        }
+
     }
 }
